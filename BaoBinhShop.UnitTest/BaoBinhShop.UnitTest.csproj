@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaoBinhShop.Common\BaoBinhShop.Common.csproj" />
+    <ProjectReference Include="..\BaoBinhShop.Data\BaoBinhShop.Data.csproj" />
+    <ProjectReference Include="..\BaoBinhShop.Model\BaoBinhShop.Model.csproj" />
+    <ProjectReference Include="..\BaoBinhShop.Service\BaoBinhShop.Service.csproj" />
+    <ProjectReference Include="..\BaoBinhShop.Web\BaoBinhShop.Web.csproj" />
+  </ItemGroup>
+
+</Project>
